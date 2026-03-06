@@ -15,10 +15,10 @@ packages=(
 	mesa-utils
 )
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-BLUE='\033[0;34m'
-NC='\033[0m'
+RED="\033[0;31m"
+GREEN="\033[0;32m"
+BLUE="\033[0;34m"
+NC="\033[0m"
 
 if [[ $EUID -ne 0 ]]; then
 	echo "${RED}Please run this script with sudo or as root!${NC}"
