@@ -12,6 +12,7 @@ packages=(
 	fd
 	fzf
 	bash-completion
+	tldr
 	mesa-utils
 )
 
